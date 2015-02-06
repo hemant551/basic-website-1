@@ -11,6 +11,31 @@ body {
 }
 
 h1 {
-  color: #E0FFFF;
+  color: #FFDB4D;
+  font-size: 4em;
   font-family: 'Merriweather Sans', sans-serif;
-  }
+  text-align: center;
+  margin: 0;
+}
+.nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffb8;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  padding: .75em 1em;
+  margin: 0;
+}
+
+nav {
+  margin:0;
+  background-color: #002468
+}
+
+a:hover .nav{
+  background-color: #520052;
+  padding: .75em 1em;
+  color: #ffff75;
+}
