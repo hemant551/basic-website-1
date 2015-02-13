@@ -17,7 +17,8 @@ h1 {
     text-align: center;
     margin: 0 0 0 .75em
 }
-.nav {
+
+a { 
     font-family: 'Roboto Condensed', sans-serif;
     color: #ffffb8;
     list-style: none;
@@ -25,7 +26,18 @@ h1 {
     font-size: 1em;
     text-align: center;
     display: inline-block;
-    padding: .75em 1em;
+    padding: .75em .25em;
+    margin: 0;
+}
+
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffb8;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    display: inline-block;
     margin: 0;
 }
 
@@ -35,10 +47,11 @@ nav {
     text-align: center
 }
 
-a:hover .nav{
+a:hover {
     background-color: #520052;
-    padding: .75em 1em;
+    padding: .75em .25em .75em;
     color: #ffff75;
+    margin: 0;
 }
 
 h2 {
